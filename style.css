@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+}
+
+.invitation-card {
+    width: 600px;
+    max-width: 90%;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25);
+    background: #ffffff;
+    overflow: hidden;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 30px;
+    text-align: center;
+    position: relative;
+}
+
+.header {
+    background: #131261;
+    color: #ffffff;
+    padding: 25px;
+    position: relative;
+    border-bottom: 4px solid #131261;
+    border-radius: 20px 20px 0 0;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 2.8em;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.container-text {
+    background: #f9f9f9;
+    padding: 30px;
+    border-radius: 0 0 20px 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+    margin: 20px 0;
+}
+
+.content h2 {
+    margin-top: 0;
+    color: #2628a0;
+    font-size: 2.2em;
+    font-weight: bold;
+    background-color: #e0e0e0;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.content p {
+    margin: 20px 0;
+    color: #555;
+    font-size: 1.2em;
+    line-height: 1.6;
+}
+
+.content ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+    font-size: 1.1em;
+    text-align: left;
+}
+
+.content li {
+    margin-bottom: 12px;
+    color: #333;
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.party-image {
+    width: 160px;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 12px;
+    border: 2px solid #ffffff;
+}
+
+.footer {
+    background: #131261;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    border: 4px solid #292ce4;
+    border-radius: 20px;
+}
+
+.footer p {
+    margin: 0;
+    font-size: 1.2em;
+}
+
+.footer p:last-of-type {
+    font-size: 1.4em;
+    margin-top: 10px;
+}
